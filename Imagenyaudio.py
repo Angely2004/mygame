@@ -14,7 +14,7 @@ fondo = pygame.image.load("imagenes/random.jpg")  # Cargamos imagen desde el arc
 fondo = pygame.transform.scale(fondo, (ANCHO, ALTO))
 
 
-sonido_salto = pygame.mixer.Sound("sonido/dragon.mp3")
+sonido_salto = pygame.mixer.Sound("sonidos/dragon.mp3")
 
 
 ejecutando = True
